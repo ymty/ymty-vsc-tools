@@ -2,7 +2,7 @@
   "name": "ymty",
   "displayName": "ymty",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -14,6 +14,11 @@
   "main": "./out/extension.js",
   "contributes": {
     "themes": [
+      {
+        "label": "Ymty One Dark Pro Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ymty One Dark Pro Theme-color-theme.json"
+      },
       {
         "label": "Ymty Dark Theme",
         "uiTheme": "vs-dark",
