@@ -2,7 +2,7 @@
   "name": "ymty",
   "displayName": "ymty",
   "description": "",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -29,8 +29,21 @@
       {
         "command": "ymty.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "ymty.copyName",
+        "title": "Copy Name"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "ymty.copyName",
+          "group": "6_copypath@20",
+          "when": "explorerResourceIsFolder || resourceScheme == file"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
