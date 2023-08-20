@@ -2,7 +2,7 @@
   "name": "ymty",
   "displayName": "ymty",
   "description": "",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -39,8 +39,15 @@
       "explorer/context": [
         {
           "command": "ymty.copyName",
-          "group": "6_copypath@20",
-          "when": "explorerResourceIsFolder || resourceScheme == file"
+          "group": "6_copypath@30",
+          "when": "isFileSystemResource"
+        }
+      ],
+      "editor/title/context": [
+        {
+          "command": "ymty.copyName",
+          "group": "1_cutcopypaste@3",
+          "when": "isFileSystemResource"
         }
       ]
     }
