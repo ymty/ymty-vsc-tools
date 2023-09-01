@@ -1,0 +1,5 @@
+// 安装依赖
+npm i --save-dev fs-extra
+
+// 发布
+vsce publis
