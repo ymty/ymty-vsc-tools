@@ -158,6 +158,7 @@
         "activityBar.activeBorder": "#ffd700",
         "tab.activeModifiedBorder": "#ffd700",
         "focusBorder": "#ffd700",
+        "toolbar.hoverOutline": "#ffd700",
         "tab.lastPinnedBorder": "#61afef",
         "editorBracketHighlight.foreground1": "#ffd700",
         "editorBracketHighlight.foreground2": "#da70d6",
@@ -174,7 +175,7 @@
         "toolbar.hoverBackground": "#0f89ad56",
         "tab.hoverBackground": "#0f89ad56",
         "button.hoverBackground": "#0f89ad56",
-        "toolbar.hoverOutline": "#ffd700"
+        "sash.hoverBorder": "#0f89ad56",
     },
     "semanticHighlighting": true,
     "semanticTokenColors": {
