@@ -2,4 +2,4 @@
 npm i --save-dev fs-extra
 
 // 发布
-vsce publis
+vsce publish

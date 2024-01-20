@@ -2,9 +2,9 @@
   "name": "ymty",
   "displayName": "ymty",
   "description": "",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "engines": {
-    "vscode": "^1.81.0"
+    "vscode": "^1.85.0"
   },
   "publisher": "ymty",
   "categories": [
@@ -70,6 +70,24 @@
           "command": "ymty.copyFullName",
           "group": "1_cutcopypaste@4",
           "when": "isFileSystemResource"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "ymty",
+          "title": "ymty",
+          "icon": "$(heart)"
+        }
+      ]
+    },
+    "views": {
+      "ymty": [
+        {
+          "id": "memo",
+          "name": "备忘录",
+          "type": "webview"
         }
       ]
     },
